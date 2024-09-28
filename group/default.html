@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Personal Information</title>
-    <link rel="stylesheet" type="text/css" href="./default.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="./default.css" />
+  </head>
+  <body>
     <h1><b>Group...</b></h1>
-    <img src="./images/group_img.jpg" alt="A picture of members" usemap="#detail-map">
-    <map name="detail-map">
-        <area shape="rect" coords="127,362,2,133" href="./members/22120435/22120435.html">
-        <area shape="rect" coords="130,134,326,362" href="./members/22120434/22120434.html">
-        <area shape="rect" coords="320,0,482,362" href="./members/22120376/22120376.html">
+    <img
+      src="./images/group_img.jpg"
+      alt="A picture of members"
+      usemap="#image-map"
+    />
+    <map name="image-map">
+      <area
+        coords="2,941,43,1079,158,1188,307,1183,403,1083,484,972,490,893,513,766,482,689,436,655,358,591,235,580,58,642,12,788"
+        shape="poly"
+        href="./members/22120435/22120435.html"
+      />
+      <area
+        coords="871,605,772,677,745,998,795,1101,871,1192,980,1235,1111,1208,1175,1149,1210,1076,1258,1007,1254,914,1214,774,1192,685,1138,603,1056,568,988,568"
+        shape="poly"
+        href="./members/22120434/22120434.html"
+      />
+      <area
+        coords="1550,578,1449,617,1371,710,1402,823,1431,920,1474,1004,1531,1054,1589,1079,1671,1076,1731,1033,1768,959,1780,885,1780,815,1766,733,1778,675,1750,613,1659,572"
+        shape="poly"
+        href="./members/22120376/22120376.html"
+      />
     </map>
     <div class="detail-infor">
-        <h2>Detail information</h2>
-        <p>Group members</p>
-        <ul>
-            <li>Nguyễn Đức Toàn-22120376</li>
-            <li>Lê Thành Vinh-22120434</li>
-            <li>Nguyễn Quốc Vinh-22120435</li>
-        </ul>
+      <h2>Detail information</h2>
+      <p>Group members</p>
+      <ul>
+        <li>Nguyễn Đức Toàn-22120376</li>
+        <li>Lê Thành Vinh-22120434</li>
+        <li>Nguyễn Quốc Vinh-22120435</li>
+      </ul>
     </div>
-</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
+    <script>
+      window.onload = function () {
+        imageMapResize();
+      };
+    </script>
+  </body>
 </html>
