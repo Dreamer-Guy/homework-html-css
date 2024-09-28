@@ -1,0 +1,12 @@
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img{
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+}
