@@ -7,6 +7,23 @@
 
 img{
     width: 400px;
-    height: auto;
+    height: 400;
     margin-right: 20px;
+}
+
+a{
+    color:white;
+    background-color: #2563EB;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size:  0.875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+a:hover{
+    background-color: #1D4ED8;
 }
