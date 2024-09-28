@@ -7,8 +7,9 @@
 
 img{
     width: 400px;
-    height: 400;
+    height: 400px;
     margin-right: 20px;
+    object-fit: cover;
 }
 
 a{
