@@ -1,3 +1,11 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #3c009d;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 img {
     width: 1024px;
     height: auto;
@@ -6,7 +14,7 @@ img {
     margin-right: auto;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,21 +22,20 @@ img {
     flex-direction: column;
 }
 
-.text-header{
+.text-header {
     color: #3c009d;
     font-size: 30px;
     font-weight: 400;
 }
 
-.underline{
+.underline {
     width: 100px;
     height: 10px;
     background-color: aqua;
     border-radius: 9px;
 }
 
-.list-container
-{
+.list-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,17 +45,23 @@ img {
     overflow: hidden;
 }
 
-.person-container{
+.person-container {
     width: 300px;
 }
 
-.person-container img{
+.person-container img {
     width: 300px;
     height: 300px;
     object-fit: cover;
 }
 
-.short-describe{
+.short-describe {
     margin: 10px 0;
+    text-align: center;
 }
 
+.full-describe {
+    margin: 10px 0;
+    padding: 0px 20px;
+    text-align: justify;
+}
